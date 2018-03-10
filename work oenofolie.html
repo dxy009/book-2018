@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+
+<style>
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.navbar-alignit .navbar-header {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 50px;
+}
+
+.navbar-alignit .navbar-brand {
+  top: 50%;
+  display: block;
+  position: relative;
+  height: auto;
+  transform: translate(0,-50%);
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  z-index: 9999;
+}
+
+#black-div{
+  min-height: 25vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+#black-div span{
+  padding-left: 50px;
+  padding-right: 50px;
+  display: block;
+
+}
+
+.container-fluid{
+  color: white;
+
+  display: flex;
+  align-items: center;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.example2 .navbar-brand>img {
+  padding: 7px 15px;
+  padding-left: 30px;
+}
+
+.mycontainer{
+  display:flex;
+}
+
+.own-top-container {
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#top-div1{
+  min-height: 75vh;
+  background-color: black;
+  background-image: url('oenofolie--00.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  background-size: cover;
+  background-position:left;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.own-container {
+  position: relative;
+  width: 50%;
+}
+
+
+
+.image {
+  display: flex;
+  width:100%;
+  height: auto;
+}
+.sapce{
+  width: 100%;
+  height: 50px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.own-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.footer {
+  background: black;
+  padding: 20px;
+}
+
+.footer a {
+  color: #70726F;
+  font-size: 15px;
+  padding: 10px;
+  transition: all .5s ease;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+a:link,a:visited{
+ text-decoration:none;
+}
+a:hover{
+ text-decoration:none;
+}
+
+</style>
+</head>
+<body>
+<div class="re-container example2">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href='studio.html' ><img src="logo-.png"></img></a>
+        </a>
+      </div>
+      <div id="navbar2" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="studio.html">Portefolio</a></li>
+          <li><a href='about.html'>About</a></li>
+          <li><a href='cv.html'>CV</a></li>
+          <li><a href='contact.html'>Contact</a></li>
+
+
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+
+<div id="top-div1" class="own-top-container">
+
+</div>
+
+<div id="black-div" class="container-fluid">
+  <p>
+  <span>
+LES OENOFOLIES 2018 : Les oenofolies de Chateaux LHB pour l'annee 2018.
+  </span>
+  </p>
+</div>
+
+<div class="own-top-container">
+<div class="own-container">
+  <img src="oenofolie--01.jpg" alt="Avatar" class="image">
+</div>
+<div class="own-container">
+  <img src="oenofolie--02.jpg" alt="Avatar" class="image">
+</div>
+<div class="own-container">
+  <img src="oenofolie--03.jpg" alt="Avatar" class="image">
+</div>
+<div class="own-container">
+  <img src="oenofolie--04.jpg" alt="Avatar" class="image">
+</div>
+<div class="own-container">
+  <img src="oenofolie--05.jpg" alt="Avatar" class="image">
+</div>
+
+
+
+</div>
+
+<footer class="footer">
+
+  <div class="mycontainer">
+
+  <div class="container text-left">
+    <a href="#">Dong Xinyi@2018 Return to the top</a>
+  </div>
+  <div class="container text-right">
+    <a href="https://www.facebook.com/profile.php?id=100013821576135"><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/dongxinyi2016"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/in/xinyi-dong-455446155/"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-wechat"></i></a>
+    <a href="#"><i class="fa fa-skype"></i></a>
+  </div>
+</div>
+</footer>
+
+</body>
+</html>
